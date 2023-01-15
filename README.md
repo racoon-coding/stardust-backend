@@ -7,3 +7,6 @@ Backend of Stardust project. This project faciliate FastAPI framework to power t
 2. Activate environment: `source ./env/bin/activate`
 3. Install packages: `pip install -r requirements.txt`
 4. (Optionally If use VSCODE) Set virtual environment python as interpreter: `Cmd Shift P` then type `python interpreter`, select venv python version
+
+### Run project
+`uvicorn main:app --reload`
